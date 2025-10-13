@@ -1,0 +1,15 @@
+# List of all URLs
+urls = [
+    "http://example.com",
+    "https://secure.com",
+    "http://mysite.org",
+    "ftp://fileserver.com",
+    "http://openai.com",
+    "www.website.com"
+]
+
+# Create a new list, keeping only the URLs that start with "http://"
+urls_new = [url for url in urls if url.startswith("http://")]
+
+# Print the filtered list
+print(urls_new)
